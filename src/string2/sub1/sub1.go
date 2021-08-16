@@ -5,7 +5,7 @@ var n int
 
 //var s2=[] string
 
-func Sub1() {
+func Function1() {
 
 	s1 = []string{"北京", "上海", "深圳"}
 	s2 = []string{"北京", "上海", "深圳"}
@@ -19,3 +19,5 @@ func Sub1() {
 	println(*p)
 
 }
+
+
