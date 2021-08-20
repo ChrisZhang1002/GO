@@ -1,14 +1,22 @@
 package main
 
-import "fmt"
-import "model"
+import (
+		"fmt"
+		"factory/model"
+	)
+
 
 func main(){
 
-	stu := student{
-		Name := "abc"
-		score := 123
-	}
+	//var stu = model.Student{
+	//	Name : "abc",
+	//	Score : 123,
+	//}
 
-	fmt.Println(stu)
+	stu1 := model.SetStu("haha",456)
+	var stu2 model.Student
+
+	//fmt.Println("stu : ",stu)
+	fmt.Println("stu1 : ", stu1)
+	fmt.Println("stu2 : ", stu2.Setst("lala",123))
 }

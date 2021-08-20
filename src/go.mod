@@ -1,3 +1,3 @@
-module github.com/ChrisZhang1002/GO_New/tree/main/src
+module GO/src
 
 go 1.16

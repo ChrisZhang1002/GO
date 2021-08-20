@@ -8,9 +8,9 @@ import (
 	"os"
 	"os/exec"
 	"os/signal"
-	"simonwaldherr.de/go/golibs/ansi"
-	"simonwaldherr.de/go/golibs/as"
-	"simonwaldherr.de/go/golibs/gcurses"
+	"game-code/snake/ansi"
+	"game-code/snake/as"
+	"game-code/snake/gcurses"
 	"time"
 )
 
@@ -52,6 +52,7 @@ func (snake *Snake) get() (int, int) {
 	return snake.x, snake.y
 }
 
+//length vary of snake
 func (snake *Snake) len(l int) {
 	snake.length += l
 }
